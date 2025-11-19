@@ -1,20 +1,9 @@
-[package]
-name = "sublime-shim"
-version = "0.1.0"
-edition = "2024"
-
-[[bin]]
-name = "smerge"
-path = "src/smerge.rs"
-
-[[bin]]
-name = "subl"
-path = "src/subl.rs"
+[workspace]
+members = ["subl", "smerge"]
+resolver = "2"
 
 [profile.release]
 lto = true
 codegen-units = 1
 strip = true
 opt-level = 3
-
-[dependencies]
