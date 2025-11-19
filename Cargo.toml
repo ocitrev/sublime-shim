@@ -1,7 +1,15 @@
 [package]
-name = "subl"
+name = "sublime-shim"
 version = "0.1.0"
 edition = "2024"
+
+[[bin]]
+name = "smerge"
+path = "src/smerge.rs"
+
+[[bin]]
+name = "subl"
+path = "src/subl.rs"
 
 [profile.release]
 lto = true
