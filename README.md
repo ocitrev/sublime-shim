@@ -68,7 +68,7 @@ The application paths are hardcoded to the default Windows locations:
 - Sublime Text: `C:\Program Files\Sublime Text\subl.exe`
 - Sublime Merge: `C:\Program Files\Sublime Merge\smerge.exe`
 
-If your installations are in different locations, modify the constants in `src/subl.rs` and `src/smerge.rs` before installing.
+If your installations are in different locations, modify the constants in `subl/src/main.rs` and `smerge/src/main.rs` before installing.
 
 ## How It Works
 
