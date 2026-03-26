@@ -58,7 +58,7 @@ smerge --help
 2. Clone this repository
 3. Install both binaries to your Cargo bin directory:
    ```cmd
-   .\install
+   just install
    ```
 4. The executables will be installed to `~/.cargo/bin/` (which should be in your PATH)
 
